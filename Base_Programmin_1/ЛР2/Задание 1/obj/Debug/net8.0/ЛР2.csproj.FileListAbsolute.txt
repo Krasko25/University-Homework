@@ -1,0 +1,30 @@
+c:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.AssemblyInfoInputs.cache
+c:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.AssemblyInfo.cs
+c:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.csproj.CoreCompileInputs.cache
+c:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.sourcelink.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\bin\Debug\net8.0\ЛР2.exe
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\bin\Debug\net8.0\ЛР2.deps.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\bin\Debug\net8.0\ЛР2.runtimeconfig.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\bin\Debug\net8.0\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\bin\Debug\net8.0\ЛР2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\refint\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ЛР2.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\obj\Debug\net8.0\ref\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\bin\Debug\net8.0\ЛР2.exe
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\bin\Debug\net8.0\ЛР2.deps.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\bin\Debug\net8.0\ЛР2.runtimeconfig.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\bin\Debug\net8.0\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\bin\Debug\net8.0\ЛР2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.sourcelink.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\refint\ЛР2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ЛР2.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР2\Задание 1\obj\Debug\net8.0\ref\ЛР2.dll
