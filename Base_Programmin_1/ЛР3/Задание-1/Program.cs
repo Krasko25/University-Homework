@@ -47,6 +47,8 @@ class Program
 
     static void Main()
     {
+        Console.Write("Задание 1:\n\n");
+
         Console.Write("Введите количество элементов массива: ");
         int arraySize;
 

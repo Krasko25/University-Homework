@@ -63,6 +63,8 @@ class Program
 
     static void Main()
     {
+        Console.Write("Задание 2:\n\n");
+
         int[,] matrix = new int[7, 7];
 
         //заполнение массива случайными числами
