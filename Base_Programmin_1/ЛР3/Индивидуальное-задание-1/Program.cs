@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Индивидуальное задание 1:\n\n");
+        Console.Write("Индивидуальное задание 1. Вариант 8:\n\n");
         int size = 5;
         int[,] matrix = new int[size, size];
 
