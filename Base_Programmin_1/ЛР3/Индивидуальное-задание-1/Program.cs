@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         Console.Write("Индивидуальное задание 1. Вариант 8:\n\n");
-        int size = 5;
+        int size = 9;
         int[,] matrix = new int[size, size];
 
         // Заполняем матрицу случайными числами и выводим её
