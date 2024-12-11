@@ -31,7 +31,18 @@ class Program
             {
                 if (start != -1)
                 {
-                    words.Add(new string(input, start, (i == input.Length - 1 && !Array.Exists(delimiters, d => d == input[i])) ? i - start + 1 : i - start));
+                    int length;
+                    if (i == input.Length - 1 && !Array.Exists(delimiters, d => d == 
+                    input[i]))
+                    {
+                        length = i - start + 1;
+                    }
+                    else
+                    {
+                        length = i - start;
+                    }
+
+                    words.Add(new string(input, start, length));
                     start = -1;
                 }
             }

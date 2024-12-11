@@ -1,0 +1,15 @@
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\bin\Debug\net8.0\Задание-5-вариант-2.exe
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\bin\Debug\net8.0\Задание-5-вариант-2.deps.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\bin\Debug\net8.0\Задание-5-вариант-2.runtimeconfig.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\bin\Debug\net8.0\Задание-5-вариант-2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\bin\Debug\net8.0\Задание-5-вариант-2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.sourcelink.json
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\refint\Задание-5-вариант-2.dll
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.pdb
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\Задание-5-вариант-2.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\Repos\University-Homework\Base_Programmin_1\ЛР4\Задание-5-вариант-2\obj\Debug\net8.0\ref\Задание-5-вариант-2.dll

@@ -15,7 +15,8 @@ class Program
         }
 
         string content = input.TrimEnd('.');
-        string[] words = content.Split(new[] { ' ', ',', '-' }, StringSplitOptions.RemoveEmptyEntries);
+        string[] words = content.Split(new[] { ' ', ',', '-' },
+        StringSplitOptions.RemoveEmptyEntries);
         Array.Reverse(words);
 
         StringBuilder reversedString = new StringBuilder();
