@@ -59,7 +59,8 @@ class Program
         for (int i = 0; i < text.Length; i++)
         {
             int shift = key[i % key.Length] - '0';  // Преобразуем цифру из ключа в сдвиг
-            char encryptedChar = (char)((text[i] - 'А' + shift) % 32 + 'А');  // Используем диапазон 'А'-'Я'
+            char encryptedChar = (char)((text[i] - 'А' + shift) % 32 + 'А');  
+            // Используем диапазон 'А'-'Я'
             result += encryptedChar;
         }
         return result;
@@ -72,7 +73,8 @@ class Program
         for (int i = 0; i < text.Length; i++)
         {
             int shift = key[i % key.Length] - '0';  // Преобразуем цифру из ключа в сдвиг
-            char decryptedChar = (char)((text[i] - 'А' - shift + 32) % 32 + 'А');  // Используем диапазон 'А'-'Я'
+            char decryptedChar = (char)((text[i] - 'А' - shift + 32) % 32 + 'А');  
+            // Используем диапазон 'А'-'Я'
             result += decryptedChar;
         }
         return result;
@@ -90,7 +92,7 @@ class Program
         return result;
     }
 
-    // Функция для расшифрования с помощью книжного шифра (для русского алфавита)
+    // Функция для расшифрования с помощью книжного шифра
     static string DecryptBook(string text)
     {
         string result = "";
@@ -102,27 +104,30 @@ class Program
         return result;
     }
 
-    // Функция для шифрования с помощью шифра Тритемиуса (для русского алфавита)
+    // Функция для шифрования с помощью шифра Тритемиуса
     static string EncryptTritemiusa(string text, string key)
     {
         string result = "";
         for (int i = 0; i < text.Length; i++)
         {
-            int shift = key[i % key.Length] - 'А';  // Преобразуем букву ключа в сдвиг
-            char encryptedChar = (char)((text[i] - 'А' + shift) % 32 + 'А');  // Используем диапазон 'А'-'Я'
+            int shift = key[i % key.Length] - 'А';  
+            // Преобразуем букву ключа в сдвиг
+            char encryptedChar = (char)((text[i] - 'А' + shift) % 32 + 'А');  
+            // Используем диапазон 'А'-'Я'
             result += encryptedChar;
         }
         return result;
     }
 
-    // Функция для расшифрования с помощью шифра Тритемиуса (для русского алфавита)
+    // Функция для расшифрования с помощью шифра Тритемиуса
     static string DecryptTritemiusa(string text, string key)
     {
         string result = "";
         for (int i = 0; i < text.Length; i++)
         {
             int shift = key[i % key.Length] - 'А';  // Преобразуем букву ключа в сдвиг
-            char decryptedChar = (char)((text[i] - 'А' - shift + 32) % 32 + 'А');  // Используем диапазон 'А'-'Я'
+            char decryptedChar = (char)((text[i] - 'А' - shift + 32) % 32 + 'А');  
+            // Используем диапазон 'А'-'Я'
             result += decryptedChar;
         }
         return result;
