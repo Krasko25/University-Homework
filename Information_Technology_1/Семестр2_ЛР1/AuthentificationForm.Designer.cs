@@ -58,6 +58,8 @@
             this.tableLayoutPanelAuthentification.Controls.Add(this.cbShowPassword, 1, 2);
             this.tableLayoutPanelAuthentification.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelAuthentification.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelAuthentification.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanelAuthentification.MinimumSize = new System.Drawing.Size(324, 242);
             this.tableLayoutPanelAuthentification.Name = "tableLayoutPanelAuthentification";
             this.tableLayoutPanelAuthentification.RowCount = 5;
             this.tableLayoutPanelAuthentification.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -65,7 +67,7 @@
             this.tableLayoutPanelAuthentification.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelAuthentification.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelAuthentification.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelAuthentification.Size = new System.Drawing.Size(432, 298);
+            this.tableLayoutPanelAuthentification.Size = new System.Drawing.Size(372, 249);
             this.tableLayoutPanelAuthentification.TabIndex = 0;
             this.tableLayoutPanelAuthentification.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanelAuthentification_Paint);
             // 
@@ -74,10 +76,10 @@
             this.tableLayoutPanelAuthentification.SetColumnSpan(this.textBoxLogin, 2);
             this.textBoxLogin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxLogin.Location = new System.Drawing.Point(10, 65);
-            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.textBoxLogin.Location = new System.Drawing.Point(8, 52);
+            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(8, 4, 8, 4);
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(412, 30);
+            this.textBoxLogin.Size = new System.Drawing.Size(356, 26);
             this.textBoxLogin.TabIndex = 0;
             this.toolTipLogin.SetToolTip(this.textBoxLogin, "Введите ваш логин");
             // 
@@ -86,10 +88,10 @@
             this.labelLogin.AutoSize = true;
             this.labelLogin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLogin.Location = new System.Drawing.Point(5, 30);
-            this.labelLogin.Margin = new System.Windows.Forms.Padding(5, 30, 3, 5);
+            this.labelLogin.Location = new System.Drawing.Point(4, 24);
+            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 24, 2, 4);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(208, 25);
+            this.labelLogin.Size = new System.Drawing.Size(180, 20);
             this.labelLogin.TabIndex = 3;
             this.labelLogin.Text = "Логин";
             this.labelLogin.Click += new System.EventHandler(this.label1_Click);
@@ -98,10 +100,10 @@
             // 
             this.buttonLogIn.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonLogIn.Location = new System.Drawing.Point(5, 230);
-            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(5, 50, 5, 25);
+            this.buttonLogIn.Location = new System.Drawing.Point(4, 189);
+            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(4, 41, 4, 20);
             this.buttonLogIn.Name = "buttonLogIn";
-            this.buttonLogIn.Size = new System.Drawing.Size(206, 47);
+            this.buttonLogIn.Size = new System.Drawing.Size(178, 38);
             this.buttonLogIn.TabIndex = 1;
             this.buttonLogIn.Text = "Войти\r\n";
             this.buttonLogIn.UseVisualStyleBackColor = true;
@@ -111,10 +113,10 @@
             // 
             this.buttonLogInCancel.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonLogInCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonLogInCancel.Location = new System.Drawing.Point(221, 230);
-            this.buttonLogInCancel.Margin = new System.Windows.Forms.Padding(5, 50, 5, 25);
+            this.buttonLogInCancel.Location = new System.Drawing.Point(190, 189);
+            this.buttonLogInCancel.Margin = new System.Windows.Forms.Padding(4, 41, 4, 20);
             this.buttonLogInCancel.Name = "buttonLogInCancel";
-            this.buttonLogInCancel.Size = new System.Drawing.Size(206, 47);
+            this.buttonLogInCancel.Size = new System.Drawing.Size(178, 38);
             this.buttonLogInCancel.TabIndex = 2;
             this.buttonLogInCancel.Text = "Отмена";
             this.buttonLogInCancel.UseVisualStyleBackColor = true;
@@ -125,10 +127,10 @@
             this.labelPassword.AutoSize = true;
             this.labelPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPassword.Location = new System.Drawing.Point(5, 110);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(5, 10, 5, 5);
+            this.labelPassword.Location = new System.Drawing.Point(4, 90);
+            this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 8, 4, 4);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(206, 25);
+            this.labelPassword.Size = new System.Drawing.Size(178, 20);
             this.labelPassword.TabIndex = 4;
             this.labelPassword.Text = "Пароль";
             // 
@@ -137,11 +139,11 @@
             this.tableLayoutPanelAuthentification.SetColumnSpan(this.textBoxPassword, 2);
             this.textBoxPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPassword.Location = new System.Drawing.Point(10, 145);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.textBoxPassword.Location = new System.Drawing.Point(8, 118);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(8, 4, 8, 4);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(412, 30);
+            this.textBoxPassword.Size = new System.Drawing.Size(356, 26);
             this.textBoxPassword.TabIndex = 5;
             this.toolTipPassword.SetToolTip(this.textBoxPassword, "Введите ваш пароль");
             // 
@@ -150,10 +152,10 @@
             this.cbShowPassword.AutoSize = true;
             this.cbShowPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cbShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cbShowPassword.Location = new System.Drawing.Point(221, 110);
-            this.cbShowPassword.Margin = new System.Windows.Forms.Padding(5, 10, 5, 5);
+            this.cbShowPassword.Location = new System.Drawing.Point(190, 90);
+            this.cbShowPassword.Margin = new System.Windows.Forms.Padding(4, 8, 4, 4);
             this.cbShowPassword.Name = "cbShowPassword";
-            this.cbShowPassword.Size = new System.Drawing.Size(206, 25);
+            this.cbShowPassword.Size = new System.Drawing.Size(178, 20);
             this.cbShowPassword.TabIndex = 6;
             this.cbShowPassword.Text = "Показывать пароль";
             this.cbShowPassword.UseVisualStyleBackColor = true;
@@ -176,10 +178,12 @@
             // 
             // AuthentificationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(432, 298);
+            this.ClientSize = new System.Drawing.Size(372, 249);
             this.Controls.Add(this.tableLayoutPanelAuthentification);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(388, 288);
             this.Name = "AuthentificationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Органайзер";

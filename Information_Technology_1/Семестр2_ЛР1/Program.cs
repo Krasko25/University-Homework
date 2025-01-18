@@ -16,7 +16,15 @@ namespace Семестр2_ЛР1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AuthentificationForm());
+
+            AuthentificationForm f = new AuthentificationForm();
+
+            //Application.Run(new AuthentificationForm());
+
+            if (f.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new OrganiserForm());
+            }
         }
     }
 }

@@ -50,6 +50,7 @@ namespace Семестр2_ЛР1
 
         private void buttonLogInCancel_Click(object sender, EventArgs e)
         {
+            DialogResult = DialogResult.Cancel;
             Close();
         }
 
@@ -76,11 +77,7 @@ namespace Семестр2_ЛР1
     
                     if (username == correctLogin && password == correctPassword)
                     {
-                        // Открываем новую форму
-                        Hide();
-
-                        MainForm formMain = new MainForm();
-                        formMain.ShowDialog();
+                        DialogResult = DialogResult.OK;
                         Close();
                     }
                     else
