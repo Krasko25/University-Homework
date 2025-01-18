@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrganiserForm));
             this.tableLayoutPanelOrganiserView = new System.Windows.Forms.TableLayoutPanel();
             this.labelChooseCatergory = new System.Windows.Forms.Label();
             this.comboBoxTypeOfEvents = new System.Windows.Forms.ComboBox();
@@ -50,6 +51,7 @@
             this.textBoxQuery = new System.Windows.Forms.TextBox();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanelOrganiserView.SuspendLayout();
             this.contextMenuStripForEachEvent.SuspendLayout();
             this.tableLayoutPanelOrganizerOperations.SuspendLayout();
@@ -143,6 +145,7 @@
             this.listViewOrganiser.MultiSelect = false;
             this.listViewOrganiser.Name = "listViewOrganiser";
             this.listViewOrganiser.Size = new System.Drawing.Size(446, 495);
+            this.listViewOrganiser.SmallImageList = this.imageList;
             this.listViewOrganiser.TabIndex = 1;
             this.listViewOrganiser.UseCompatibleStateImageBehavior = false;
             this.listViewOrganiser.View = System.Windows.Forms.View.Details;
@@ -284,6 +287,14 @@
             this.openFileDialog.Title = "Выберите файл с событиями";
             this.openFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog_FileOk);
             // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "Meeting");
+            this.imageList.Images.SetKeyName(1, "Reminder");
+            this.imageList.Images.SetKeyName(2, "Task");
+            // 
             // OrganiserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,7 +305,7 @@
             this.Controls.Add(this.tableLayoutPanelOrganiserView);
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.MinimumSize = new System.Drawing.Size(458, 553);
+            this.MinimumSize = new System.Drawing.Size(458, 552);
             this.Name = "OrganiserForm";
             this.Text = "Календарь событий";
             this.Load += new System.EventHandler(this.OrganiserForm_Load);
@@ -331,5 +342,6 @@
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.TextBox textBoxQuery;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.ImageList imageList;
     }
 }

@@ -38,25 +38,46 @@ namespace Семестр2_ЛР1
 
         private void UpdateEventList(List<Event> sortedEvents)
         {
-            // Очищаем текущий список в ListView
             listViewOrganiser.Items.Clear();
 
-            // Добавляем отсортированные элементы в ListView
             foreach (var ev in sortedEvents)
             {
-                ListViewItem item = new ListViewItem(new string[]
+                // Определение индекса иконки в зависимости от категории
+                int imageIndex = -1;
+
+                switch (ev.Category)
                 {
-                    ev.Date.ToString("dd.MM.yyyy"),
-                    ev.Time.ToString("HH:mm"),
-                    ev.Description,
-                    ev.Category
-                })
+                    case "Напоминание":
+                        imageIndex = imageList.Images.IndexOfKey("Reminder");
+                        break;
+                    case "Встреча":
+                        imageIndex = imageList.Images.IndexOfKey("Meeting");
+                        break;
+                    case "Задача":
+                        imageIndex = imageList.Images.IndexOfKey("Task");
+                        break;
+                    default:
+                        imageIndex = -1;  // Если категории нет, не показывать иконку
+                        break;
+                }
+
+                // Создаем элемент для ListView и добавляем его
+                ListViewItem item = new ListViewItem(new string[] {
+            ev.Date.ToString("dd.MM.yyyy"),
+            ev.Time.ToString("HH:mm"),
+            ev.Description,
+            ev.Category
+        })
                 {
-                    Tag = ev
+                    Tag = ev,
+                    ImageIndex = imageIndex  // Устанавливаем соответствующую иконку
                 };
+
                 listViewOrganiser.Items.Add(item);
             }
         }
+
+
 
         private void SaveEventsToFile()
         {
@@ -150,7 +171,8 @@ namespace Семестр2_ЛР1
             {
                 var selectedEvent = (Event)listViewOrganiser.SelectedItems[0].Tag;
 
-                var confirmationMessage = $"Вы уверены, что хотите удалить событие: '{selectedEvent.Date:dd.MM.yyyy} / {selectedEvent.Time:HH:mm} / {selectedEvent.Description}'?";
+                var confirmationMessage = $"Вы уверены, что хотите удалить событие: '{selectedEvent.Date:dd.MM.yyyy}" +
+                    $" / {selectedEvent.Time:HH:mm} / {selectedEvent.Description}'?";
                 if (MessageBox.Show(confirmationMessage, "Удалить событие", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     eventsList.Remove(selectedEvent);

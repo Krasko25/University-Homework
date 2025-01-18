@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|c:\\users\\mikhail\\documents\\repos\\university-homework\\information_technology_1\\\u0441\u0435\u043C\u0435\u0441\u0442\u04402_\u043B\u04401\\addeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:addeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|c:\\users\\mikhail\\documents\\repos\\university-homework\\information_technology_1\\\u0441\u0435\u043C\u0435\u0441\u0442\u04402_\u043B\u04401\\organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|c:\\users\\mikhail\\documents\\repos\\university-homework\\information_technology_1\\\u0441\u0435\u043C\u0435\u0441\u0442\u04402_\u043B\u04401\\organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:organiserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\addeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:addeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\authentificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:authentificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\authentificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8CCFA1A-3B47-4A57-9B28-C95793DB82E9}|\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201.csproj|solutionrelative:authentificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddEventForm.cs",
               "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\AddEventForm.cs",
               "RelativeDocumentMoniker": "AddEventForm.cs",
@@ -46,8 +50,7 @@
               "RelativeToolTip": "AddEventForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T04:55:28.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T04:55:28.732Z"
             },
             {
               "$type": "Document",
@@ -57,21 +60,32 @@
               "RelativeDocumentMoniker": "AuthentificationForm.cs",
               "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\AuthentificationForm.cs",
               "RelativeToolTip": "AuthentificationForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T04:37:33.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OrganiserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs",
               "RelativeDocumentMoniker": "OrganiserForm.cs",
-              "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "OrganiserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "OrganiserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T12:42:47.283Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthentificationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\AuthentificationForm.cs",
+              "RelativeDocumentMoniker": "AuthentificationForm.cs",
+              "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\AuthentificationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "AuthentificationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T05:35:56.381Z"
             },
             {
               "$type": "Document",
@@ -79,9 +93,9 @@
               "Title": "OrganiserForm.cs",
               "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs",
               "RelativeDocumentMoniker": "OrganiserForm.cs",
-              "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs",
-              "RelativeToolTip": "OrganiserForm.cs",
-              "ViewState": "AgIAADkBAAAAAAAAAAAAwEcBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\\u0421\u0435\u043C\u0435\u0441\u0442\u04402_\u041B\u04201\\OrganiserForm.cs*",
+              "RelativeToolTip": "OrganiserForm.cs*",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAwBUBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T03:53:03.519Z",
               "EditorCaption": ""
