@@ -1,0 +1,9 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.Form1.resources
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.Properties.Resources.resources
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.csproj.GenerateResource.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology_1\Семестр_2_ЛР2\obj\Debug\net472\Семестр_2_ЛР2.sourcelink.json
