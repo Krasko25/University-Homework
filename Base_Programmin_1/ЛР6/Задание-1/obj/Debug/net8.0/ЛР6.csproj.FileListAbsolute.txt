@@ -1,0 +1,14 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\bin\Debug\net8.0\ЛР6.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\bin\Debug\net8.0\ЛР6.deps.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\bin\Debug\net8.0\ЛР6.runtimeconfig.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\bin\Debug\net8.0\ЛР6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\bin\Debug\net8.0\ЛР6.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\refint\ЛР6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ЛР6.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\ЛР6\obj\Debug\net8.0\ref\ЛР6.dll

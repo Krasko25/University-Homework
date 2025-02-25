@@ -1,0 +1,14 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\bin\Debug\net8.0\Задание 1.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\bin\Debug\net8.0\Задание 1.deps.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\bin\Debug\net8.0\Задание 1.runtimeconfig.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\bin\Debug\net8.0\Задание 1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\bin\Debug\net8.0\Задание 1.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\refint\Задание 1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\Задание 1.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programmin\Задание-1\obj\Debug\net8.0\ref\Задание 1.dll
