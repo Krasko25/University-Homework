@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\Семестр2_ЛР2\\Семестр_2_ЛР2.csproj",
+      "projectUniqueName": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology\\Семестр2_ЛР2\\Семестр_2_ЛР2.csproj",
       "projectName": "Семестр_2_ЛР2",
-      "projectPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\Семестр2_ЛР2\\Семестр_2_ЛР2.csproj",
+      "projectPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology\\Семестр2_ЛР2\\Семестр_2_ЛР2.csproj",
       "packagesPath": "C:\\Users\\Mikhail\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology_1\\Семестр2_ЛР2\\obj\\",
+      "outputPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Information_Technology\\Семестр2_ЛР2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,12 +52,12 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net48": {
         "targetAlias": "net48",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
