@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikhail\\Documents\\Repos\\University-Homework\\Base_Programmin_1\\ЛР3\\Задание-4\\Задание-4.csproj": {}
+    "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Base_Programming\\ЛР3\\Задание-4\\Задание-4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikhail\\Documents\\Repos\\University-Homework\\Base_Programmin_1\\ЛР3\\Задание-4\\Задание-4.csproj": {
+    "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Base_Programming\\ЛР3\\Задание-4\\Задание-4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikhail\\Documents\\Repos\\University-Homework\\Base_Programmin_1\\ЛР3\\Задание-4\\Задание-4.csproj",
+        "projectUniqueName": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Base_Programming\\ЛР3\\Задание-4\\Задание-4.csproj",
         "projectName": "Задание-4",
-        "projectPath": "C:\\Users\\Mikhail\\Documents\\Repos\\University-Homework\\Base_Programmin_1\\ЛР3\\Задание-4\\Задание-4.csproj",
+        "projectPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Base_Programming\\ЛР3\\Задание-4\\Задание-4.csproj",
         "packagesPath": "C:\\Users\\Mikhail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikhail\\Documents\\Repos\\University-Homework\\Base_Programmin_1\\ЛР3\\Задание-4\\obj\\",
+        "outputPath": "C:\\Users\\Mikhail\\Documents\\repos\\University-Homework\\Base_Programming\\ЛР3\\Задание-4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Mikhail\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
