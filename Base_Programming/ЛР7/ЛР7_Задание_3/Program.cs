@@ -37,7 +37,8 @@ class Program
             process.Start();
             process.WaitForExit();
             stopwatch.Stop();
-            Console.WriteLine($"Программа завершена. Время выполнения: {stopwatch.Elapsed.Seconds} секунд и {stopwatch.Elapsed.Milliseconds} миллисекунд.");
+
+            Console.WriteLine($"Программа завершена. Время выполнения: {stopwatch.ElapsedMilliseconds / 1000} секунд и {stopwatch.ElapsedMilliseconds % 1000} миллисекунд.");
         }
         catch (Exception ex)
         {
