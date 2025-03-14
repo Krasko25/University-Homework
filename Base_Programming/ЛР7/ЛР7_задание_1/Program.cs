@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Diagnostics;
 
 class Program
 {
@@ -115,6 +116,12 @@ class Program
     // Метод для сортировки таблицы
     static void SortTable(ref Transport[] transports, int count)
     {
+        // Создаем экземпляр Stopwatch для измерения времени
+        Stopwatch stopwatch = new Stopwatch();
+
+        // Запускаем таймер перед сортировкой
+        stopwatch.Start();
+
         Console.WriteLine("\nВыберите столбец для сортировки:");
         Console.WriteLine("1 – По длине маршрута");
         Console.WriteLine("2 – По времени маршрута");
@@ -154,6 +161,12 @@ class Program
                 transports[minIndex] = temp;
             }
         }
+
+        // Останавливаем таймер после сортировки
+        stopwatch.Stop();
+
+        // Выводим время, затраченное на сортировку
+        Console.WriteLine($"\nВремя сортировки: {stopwatch.ElapsedMilliseconds} миллисекунд.");
 
         // После сортировки показываем таблицу
         ViewTable(transports, count);
