@@ -1,0 +1,15 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\bin\Debug\net8.0\ЛР8_задание_1.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\bin\Debug\net8.0\ЛР8_задание_1.deps.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\bin\Debug\net8.0\ЛР8_задание_1.runtimeconfig.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\bin\Debug\net8.0\ЛР8_задание_1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\bin\Debug\net8.0\ЛР8_задание_1.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.sourcelink.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\refint\ЛР8_задание_1.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ЛР8_задание_1.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\ЛР8_задание_1\ЛР8_задание_1\obj\Debug\net8.0\ref\ЛР8_задание_1.dll
