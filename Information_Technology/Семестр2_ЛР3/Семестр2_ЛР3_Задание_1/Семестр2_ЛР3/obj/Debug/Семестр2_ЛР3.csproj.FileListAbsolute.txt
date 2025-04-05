@@ -1,0 +1,10 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\bin\Debug\Семестр2_ЛР3.exe.config
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\bin\Debug\Семестр2_ЛР3.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\bin\Debug\Семестр2_ЛР3.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.Properties.Resources.resources
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.csproj.GenerateResource.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3\obj\Debug\Семестр2_ЛР3.FormMain.resources

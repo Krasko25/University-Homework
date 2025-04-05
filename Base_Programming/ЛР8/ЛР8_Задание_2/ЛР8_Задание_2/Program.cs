@@ -37,9 +37,7 @@ class Program
         Console.WriteLine($"\n{name} поиск:");
         Console.WriteLine(position != -1 ? $"Позиция: {position}" : "Не найдено");
 
-        // Точное отображение времени: до микросекунд (6 знаков)
         Console.WriteLine($"Время: {sw.Elapsed.TotalMilliseconds:0.0000} мс");
-
         Console.WriteLine($"Сравнений: {comparisons}");
     }
 

@@ -1,0 +1,10 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.Properties.Resources.resources
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.csproj.GenerateResource.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\bin\Debug\Семестр2_ЛР3_Задание_2.exe.config
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\bin\Debug\Семестр2_ЛР3_Задание_2.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\bin\Debug\Семестр2_ЛР3_Задание_2.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Information_Technology\Семестр2_ЛР3\Семестр2_ЛР3_Задание_2\Семестр2_ЛР3_Задание_2\obj\Debug\Семестр2_ЛР3_Задание_2.FormCardsTable.resources

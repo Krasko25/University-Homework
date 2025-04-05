@@ -1,0 +1,15 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.sourcelink.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\bin\Debug\net8.0\тест по ОП.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\bin\Debug\net8.0\тест по ОП.deps.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\bin\Debug\net8.0\тест по ОП.runtimeconfig.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\bin\Debug\net8.0\тест по ОП.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\bin\Debug\net8.0\тест по ОП.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\refint\тест по ОП.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\тест по ОП.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР8\тест по ОП\тест по ОП\obj\Debug\net8.0\ref\тест по ОП.dll
