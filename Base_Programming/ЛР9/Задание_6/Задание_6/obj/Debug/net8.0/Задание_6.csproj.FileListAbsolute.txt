@@ -1,0 +1,15 @@
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\bin\Debug\net8.0\Задание_6.exe
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\bin\Debug\net8.0\Задание_6.deps.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\bin\Debug\net8.0\Задание_6.runtimeconfig.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\bin\Debug\net8.0\Задание_6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\bin\Debug\net8.0\Задание_6.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.AssemblyInfo.cs
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.sourcelink.json
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\refint\Задание_6.dll
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.pdb
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\Задание_6.genruntimeconfig.cache
+C:\Users\Mikhail\Documents\repos\University-Homework\Base_Programming\ЛР9\Задание_6\Задание_6\obj\Debug\net8.0\ref\Задание_6.dll
