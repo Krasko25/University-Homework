@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Компьютерная графика_ЛР2_Красько_ИВТ-4_2курс", "Компьютерная графика_ЛР2_Красько_ИВТ-4_2курс\Компьютерная графика_ЛР2_Красько_ИВТ-4_2курс.csproj", "{4E07D7BB-6367-48C4-BA17-359FC7197652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E07D7BB-6367-48C4-BA17-359FC7197652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E07D7BB-6367-48C4-BA17-359FC7197652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E07D7BB-6367-48C4-BA17-359FC7197652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E07D7BB-6367-48C4-BA17-359FC7197652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC2D81A9-7F3C-433C-991E-73ADDF85805F}
+	EndGlobalSection
+EndGlobal

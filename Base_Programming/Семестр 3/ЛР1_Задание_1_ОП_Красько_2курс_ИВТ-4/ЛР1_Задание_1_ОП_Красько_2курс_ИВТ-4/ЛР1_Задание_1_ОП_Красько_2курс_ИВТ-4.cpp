@@ -27,28 +27,55 @@ int processArray(const int arrLength, int count, int inputArr[], int outputArr[]
         inputArr[i] = powerOf3;
     }
 
-    std::cout << "Вход: [";
     for (int i = 0; i < arrLength; i++) {
-        std::cout << inputArr[i] << " ";
+        int digitsAmount = 0;
+        int inputArrItemCopy = inputArr[i];
+        while (inputArrItemCopy != 0) {
+            inputArrItemCopy = inputArrItemCopy / 10;
+            digitsAmount++;
+        }
+        if (digitsAmount == 2) {
+            outputArr[count] = inputArr[i];
+            count++;
+        }
     }
-    std::cout << "]";
-
     return outputArr, count;
 
+}
+
+void printArr(int arr[], int length) {
+    // вывожу первое значение массива вне цикла, чтобы не было лишнего пробела в выводе
+    std::cout << arr[0];
+    for (int i = 1; i < length; i++) {
+        std::cout << " " << arr[i];
+    }
 }
 
 using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
+    std::cout << "ЛР1. Задание 1\n";
 
-    const int arrLength = 16;
-    int inputArr[arrLength] = { 1 };
-    int outputArr[arrLength], count = 0;
-    outputArr, count = processArray(arrLength, count, inputArr, outputArr);
+    
+    const int arrLength = 16; // длина массивов задаётся в одном месте
+    int inputArr[arrLength] = { 1 }; // создаём массив и заполняем его единицами
+    int outputArr[arrLength]; // массив, куда запишутся только двухзначние числа
+    int count = 0; // количество двухзначных чисел
+
+    // записываем в массив outputArr и в count результат работы processArray
+    outputArr, count = processArray(arrLength, count, inputArr, outputArr); 
+
+    std::cout << "\nВход: [";
+    printArr(inputArr, arrLength);
+    std::cout << "]";
 
 
+    std::cout << "\nВыход: [";
+    printArr(outputArr, count);
+    std::cout << "]";
 
+    std::cout << "\t\t\tCount = " << count;
 
     //std::cout << arr[1];
 }
