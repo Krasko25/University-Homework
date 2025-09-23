@@ -4,6 +4,10 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
+// на вход: длина массива одномерного
+// на выход: указатель на одномерный массив
 int* generateArr(int length) {
     int* x = new int[length];
     for (int i = 0; i < length; i++) {
@@ -18,17 +22,44 @@ int* generateArr(int length) {
 
 }
 
+//на вход: длина массива, указатель на одномерный массив
+//итог: выведенный в консоле массив со скобками квадратными
 void print5SymbolArr(int length, int* arr) {
+    cout << "[ ";
     for (int i = 0; i < length; i++) {
-        std::cout << std::setw(5) << arr[i] << "\n";
+        cout << std::setw(5) << arr[i] << " "; //выеделяем 5 символов для каждого элемента массива
     }
+    cout << "]";
 }
 
+//на вход: количество столбцов в массиве (т.е. количество массивов в массиве), количество строк в массиве 
+// (т.е. число элементов в каждом из саб массивов), указатель на двумерный массив
+//итог: выведенный в консоле массив в виде матрицы со скобками квадратными
+void print5Symbol2DArr(int columnsAmount, int rowsAmount, int** arr) {
+    for (int i = 0; i < columnsAmount; i++) {
+        for (int j = 0; j < rowsAmount; j++) {
+            if (i == 0 && j == 0) { // для того, чтобы всё выводилось красиво, делаем [ частью 5 символов для вывода первых 5 элементов массива
+                cout << "[" << std::setw(4) << arr[i][j] << "\t";
+            }
+            else {
+                cout << std::setw(5) << arr[i][j] << "\t";
+            }
+        }
+        if (i != (columnsAmount - 1)) { // для того, чтобы ] была сразу после последнего элемента, а не на новой строке
+            cout << "\n";
+        }
+    }
+    cout << "]";
+}
+
+// на вход: длина массива, указатель на одномерный массив
+// итог: отсортированный массив по тому же адрессу 
 void bubbleSort(int length, int* arr) {
     int temp;
 
     for (int i = 0; i < length; i++) {
-        for (int j = 0; j < (length - 1 - i); j++) {
+        for (int j = 0; j < (length - 1 - i); j++) { // берём от элемента 0, до length - i т.к. после каждого внешнего цикла последнее число уже будет минимальным
+            // отнимаем 1 т.к. мы сравниваем текущий элемент со следующим
             if (arr[j] < arr[j + 1]) {
                 temp = arr[j];
                 arr[j] = arr[j + 1];
@@ -38,36 +69,69 @@ void bubbleSort(int length, int* arr) {
     }
 }
 
-int* splitArrIntoSmallerOnes(int originalLength, int* originalArr, int rowsAmount) {
-    int columnsAmount = (originalLength + rowsAmount - 1) / rowsAmount; // округление в большую сторону
+// на вход: указатель на одномерный массив, длина одномерного массива, количество желаемый строк, желаемое количество столбцов
+// на выход: двумерный массив с суб массивами нужного размера
+int** splitArrIntoSmallerOnes(int* originalArr, int originalLength, int rowsAmount, int columnsAmount) {
+    
+    // указатель на массив указателей
     int** outputArr = new int*[columnsAmount];
     for (int i = 0; i < columnsAmount; i++) {
+        // создаём массивы чисел во внутренних массивах [[rowsAmount чисел], [rowsAmount чисел], ..., columnsAmount]
         outputArr[i] = new int[rowsAmount];
     }
 
-    /*for (int i = 0; i < columnsAmount; i++) {
-        for (int j = 0; j < subArrSize; j++) {
-
+    for (int i = 0; i < columnsAmount; i++) {
+        for (int j = 0; j < rowsAmount; j++) {
+            int index = ((i) * rowsAmount + j); // т.е. для получения инф. о том, с каким элементом начального массива по счёту мы работаем, умножаем индекс столбца на индекс строки и добавляем текущий id строки
+            if (index > (originalLength - 1)) { // отнимаем 1, чтобы от номера по порядку получить id
+                // тут если уже все элементы начального массива записаны, остальное заполняется нулями
+                outputArr[i][j] = 0;
+            }
+            else{
+                outputArr[i][j] = originalArr[index];
+            }
         }
-    }*/
+    }
+
+    return outputArr;
 }
 
 
-using namespace std;
+
 int main()
 {
+    setlocale(LC_ALL, "Russian");
+
     int* arr1D{ nullptr };
     const int arrLength = 18;
-
     arr1D = generateArr(arrLength);
 
-    bubbleSort(arrLength, arr1D);
 
+    bubbleSort(arrLength, arr1D);
     print5SymbolArr(arrLength, arr1D);
 
+    cout << "\n=>";
 
+    int columnsAmount, rowsAmount;
 
+    cout << "\nВведите размер групп, на которые нужно разбить массив: ";
+    while (true) { // проверка правильности ввода
+        cin >> rowsAmount;
+        if (cin.fail() || rowsAmount <= 0) { 
+            cin.clear();  // Очищаем флаг ошибки ввода
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Игнорируем оставшийся ввод
+            cout << "Ошибка ввода. Введите положительное число: ";
+        }
+        else {
+            break;
+        }
+    }
 
+    columnsAmount = (arrLength + rowsAmount - 1) / rowsAmount; // округление в большую сторону
+
+    int** arr2D = splitArrIntoSmallerOnes(arr1D, arrLength, rowsAmount, columnsAmount);
+
+    print5Symbol2DArr(columnsAmount, rowsAmount, arr2D);
 }
 
 //Написать программу, которая преобразует одномерный массив(1D) в двумерный(2D)
