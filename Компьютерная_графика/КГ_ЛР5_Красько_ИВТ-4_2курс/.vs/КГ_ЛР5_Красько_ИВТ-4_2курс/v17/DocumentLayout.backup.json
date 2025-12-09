@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CDEA93B-8045-44AD-B33D-5CD2C4C9D710}|\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441.csproj|C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u043A\u0433_\u043B\u04405_\u043A\u0440\u0430\u0441\u044C\u043A\u043E_\u0438\u0432\u0442-4_2\u043A\u0443\u0440\u0441\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CDEA93B-8045-44AD-B33D-5CD2C4C9D710}|\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441.csproj|solutionrelative:\u043A\u0433_\u043B\u04405_\u043A\u0440\u0430\u0441\u044C\u043A\u043E_\u0438\u0432\u0442-4_2\u043A\u0443\u0440\u0441\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CDEA93B-8045-44AD-B33D-5CD2C4C9D710}|\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441.csproj|c:\\users\\mikhail\\documents\\university-homework\\\u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u043A\u0433_\u043B\u04405_\u043A\u0440\u0430\u0441\u044C\u043A\u043E_\u0438\u0432\u0442-4_2\u043A\u0443\u0440\u0441\\\u043A\u0433_\u043B\u04405_\u043A\u0440\u0430\u0441\u044C\u043A\u043E_\u0438\u0432\u0442-4_2\u043A\u0443\u0440\u0441\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CDEA93B-8045-44AD-B33D-5CD2C4C9D710}|\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441.csproj|solutionrelative:\u043A\u0433_\u043B\u04405_\u043A\u0440\u0430\u0441\u044C\u043A\u043E_\u0438\u0432\u0442-4_2\u043A\u0443\u0440\u0441\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs",
+              "RelativeDocumentMoniker": "\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs*",
+              "RelativeToolTip": "\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAtwFIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:08:04.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs",
+              "RelativeDocumentMoniker": "\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mikhail\\Documents\\University-Homework\\\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u0430\u044F_\u0433\u0440\u0430\u0444\u0438\u043A\u0430\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "\u041A\u0413_\u041B\u04205_\u041A\u0440\u0430\u0441\u044C\u043A\u043E_\u0418\u0412\u0422-4_2\u043A\u0443\u0440\u0441\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:48:20.603Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
