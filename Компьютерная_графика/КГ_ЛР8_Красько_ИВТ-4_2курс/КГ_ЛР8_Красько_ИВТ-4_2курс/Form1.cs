@@ -35,26 +35,12 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
         private int enemyDirection = 1;
         private Random random = new Random();
         private int enemyMoveCounter = 0;
-        private int DIRECTION_CHANGE_FREQUENCY = 50;
 
         private int playerFireCooldown = 0;
-        private int PLAYER_FIRE_RATE = 15;
         private int enemyFireCooldown = 0;
-        private int ENEMY_FIRE_RATE = 20;
 
         private int playerLives = 3;
         private int enemyLives = 10;
-        private int MAX_ENEMY_LIVES = 10;
-        private int MAX_PLAYER_LIVES = 3;
-
-        private int PLAYER_BULLET_SPEED = 10;
-        private int ENEMY_BULLET_SPEED = 10;
-
-        private int HEART_SIZE = 30;
-        private int HEART_SPACING = 5;
-
-        private int ENEMY_Y_POSITION = 80;
-        private int PLAYER_Y_POSITION = 550;
 
         public FormUFOFight()
         {
@@ -74,8 +60,8 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             LoadGameImages();
             CreateGameObjectsWithImages();
 
-            playerLives = MAX_PLAYER_LIVES;
-            enemyLives = MAX_ENEMY_LIVES;
+            playerLives = 3;
+            enemyLives = 10;
 
             enemyMoveCounter = 0;
             playerFireCooldown = 0;
@@ -86,30 +72,17 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
 
         private void LoadGameImages()
         {
-            string appPath = Application.StartupPath;
+            playerImage = Image.FromFile("ufo_player.png");
+            enemyImage = Image.FromFile("ufo_enemy.png");
 
-            string playerPath = Path.Combine(appPath, "ufo_player.png");
-            playerImage = Image.FromFile(playerPath);
-
-            string enemyPath = Path.Combine(appPath, "ufo_enemy.png");
-            enemyImage = Image.FromFile(enemyPath);
-
-            string backgroundPath = Path.Combine(appPath, "space.jpg");
-            backgroundImage = Image.FromFile(backgroundPath);
+            backgroundImage = Image.FromFile("space.jpg");
             pictureBoxGame.BackgroundImage = backgroundImage;
             pictureBoxGame.BackgroundImageLayout = ImageLayout.Stretch;
 
-            string columnPath = Path.Combine(appPath, "column.png");
-            columnImage = Image.FromFile(columnPath);
-
-            string playerBulletPath = Path.Combine(appPath, "player_bullet.png");
-            playerBulletImage = Image.FromFile(playerBulletPath);
-
-            string enemyBulletPath = Path.Combine(appPath, "enemy_bullet.png");
-            enemyBulletImage = Image.FromFile(enemyBulletPath);
-
-            string heartPath = Path.Combine(appPath, "HP_icon.png");
-            heartImage = Image.FromFile(heartPath);
+            columnImage = Image.FromFile("column.png");
+            playerBulletImage = Image.FromFile("player_bullet.png");
+            enemyBulletImage = Image.FromFile("enemy_bullet.png");
+            heartImage = Image.FromFile("HP_icon.png");
         }
 
         private void CreateGameObjectsWithImages()
@@ -126,7 +99,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
                 player.SizeMode = PictureBoxSizeMode.StretchImage;
                 player.Size = new Size(60, 60);
                 player.BackColor = Color.Transparent;
-                player.Location = new Point(pictureBoxGame.Width / 2 - 30, PLAYER_Y_POSITION);
+                player.Location = new Point(pictureBoxGame.Width / 2 - 30, 550);
                 pictureBoxGame.Controls.Add(player);
                 player.BringToFront();
             }
@@ -138,7 +111,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
                 enemy.SizeMode = PictureBoxSizeMode.StretchImage;
                 enemy.Size = new Size(60, 60);
                 enemy.BackColor = Color.Transparent;
-                enemy.Location = new Point(pictureBoxGame.Width / 2 - 30, ENEMY_Y_POSITION);
+                enemy.Location = new Point(pictureBoxGame.Width / 2 - 30, 80);
                 pictureBoxGame.Controls.Add(enemy);
                 enemy.BringToFront();
             }
@@ -187,18 +160,17 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
 
             if (heartImage == null) return;
 
-
             // сердечки врага
             int enemyHeartsStartX = 10;
             int enemyHeartsY = 10;
-            for (int i = 0; i < MAX_ENEMY_LIVES; i++)
+            for (int i = 0; i < 10; i++)
             {
                 PictureBox heart = new PictureBox();
                 heart.Image = heartImage;
                 heart.SizeMode = PictureBoxSizeMode.StretchImage;
-                heart.Size = new Size(HEART_SIZE, HEART_SIZE);
+                heart.Size = new Size(30, 30);
                 heart.BackColor = Color.Transparent;
-                heart.Location = new Point(enemyHeartsStartX + i * (HEART_SIZE + HEART_SPACING), enemyHeartsY);
+                heart.Location = new Point(enemyHeartsStartX + i * (30 + 5), enemyHeartsY);
                 heart.Visible = (i < enemyLives);
                 pictureBoxGame.Controls.Add(heart);
                 heart.BringToFront();
@@ -206,18 +178,18 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             }
 
             // Сердечки игрока
-            int playerHeartsTotalWidth = (MAX_PLAYER_LIVES * HEART_SIZE) + ((MAX_PLAYER_LIVES - 1) * HEART_SPACING);
+            int playerHeartsTotalWidth = (3 * 30) + ((3 - 1) * 5);
             int playerHeartsStartX = pictureBoxGame.Width - playerHeartsTotalWidth - 10;
-            int playerHeartsY = pictureBoxGame.Height - HEART_SIZE - 10;
+            int playerHeartsY = pictureBoxGame.Height - 30 - 10;
 
-            for (int i = 0; i < MAX_PLAYER_LIVES; i++)
+            for (int i = 0; i < 3; i++)
             {
                 PictureBox heart = new PictureBox();
                 heart.Image = heartImage;
                 heart.SizeMode = PictureBoxSizeMode.StretchImage;
-                heart.Size = new Size(HEART_SIZE, HEART_SIZE);
+                heart.Size = new Size(30, 30);
                 heart.BackColor = Color.Transparent;
-                heart.Location = new Point(playerHeartsStartX + i * (HEART_SIZE + HEART_SPACING), playerHeartsY);
+                heart.Location = new Point(playerHeartsStartX + i * (30 + 5), playerHeartsY);
                 heart.Visible = (i < playerLives);
                 pictureBoxGame.Controls.Add(heart);
                 heart.BringToFront();
@@ -232,7 +204,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
         {
             if (heartImage == null) return;
 
-            for (int i = 0; i < MAX_ENEMY_LIVES; i++)
+            for (int i = 0; i < 10; i++)
             {
                 if (i < enemyHearts.Count)
                 {
@@ -240,7 +212,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
                 }
             }
 
-            for (int i = 0; i < MAX_PLAYER_LIVES; i++)
+            for (int i = 0; i < 3; i++)
             {
                 if (i < playerHearts.Count)
                 {
@@ -418,7 +390,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             if (shootPressed && playerFireCooldown <= 0)
             {
                 CreatePlayerBullet();
-                playerFireCooldown = PLAYER_FIRE_RATE;
+                playerFireCooldown = 15;
             }
 
             if (playerFireCooldown > 0) playerFireCooldown--;
@@ -426,7 +398,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             if (enemyFireCooldown <= 0)
             {
                 CreateEnemyBullet();
-                enemyFireCooldown = ENEMY_FIRE_RATE;
+                enemyFireCooldown = 20;
             }
 
             if (enemyFireCooldown > 0) enemyFireCooldown--;
@@ -455,7 +427,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
                 }
             }
 
-            if (enemyMoveCounter >= DIRECTION_CHANGE_FREQUENCY)
+            if (enemyMoveCounter >= 50)
             {
                 if (random.Next(0, 100) < 40)
                 {
@@ -495,7 +467,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
 
             enemy.Left = newX;
 
-            if (random.Next(0, 1000) < 5)
+            if (random.Next(0, 1000) < 20)
             {
                 int currentPos = enemy.Left + enemy.Width / 2;
                 if (currentPos > pictureBoxGame.Width / 3 && currentPos < pictureBoxGame.Width * 2 / 3)
@@ -538,7 +510,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             for (int i = playerBullets.Count - 1; i >= 0; i--)
             {
                 PictureBox bullet = playerBullets[i];
-                bullet.Top -= PLAYER_BULLET_SPEED;
+                bullet.Top -= 10;
 
                 bool hitObstacle = false;
                 foreach (PictureBox obstacle in obstacles)
@@ -564,7 +536,7 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             for (int i = enemyBullets.Count - 1; i >= 0; i--)
             {
                 PictureBox bullet = enemyBullets[i];
-                bullet.Top += ENEMY_BULLET_SPEED;
+                bullet.Top += 10;
 
                 bool hitObstacle = false;
                 foreach (PictureBox obstacle in obstacles)
@@ -638,6 +610,5 @@ namespace КГ_ЛР8_Красько_ИВТ_4_2курс
             MessageBox.Show(message, "Конец игры", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Focus();
         }
-
     }
 }
