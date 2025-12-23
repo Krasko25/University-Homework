@@ -1,0 +1,14 @@
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.exe.config
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.exe
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.pdb
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ_4_2курс.Properties.Resources.resources
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.csproj.GenerateResource.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.exe
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ-4_2курс.pdb
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\enemy_bullet.png
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\player_bullet.png
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\ufo_enemy.png
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\bin\Debug\ufo_player.png
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР8_Красько_ИВТ-4_2курс\КГ_ЛР8_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР8_Красько_ИВТ_4_2курс.FormUFOFight.resources

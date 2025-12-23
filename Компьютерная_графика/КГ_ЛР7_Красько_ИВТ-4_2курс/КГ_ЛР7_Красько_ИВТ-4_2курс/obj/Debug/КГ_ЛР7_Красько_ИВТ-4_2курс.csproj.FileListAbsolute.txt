@@ -1,0 +1,10 @@
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.exe.config
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.exe
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\bin\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.pdb
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ_4_2курс.Properties.Resources.resources
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.csproj.GenerateResource.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.exe
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ-4_2курс.pdb
+C:\Users\Mikhail\Documents\University-Homework\Компьютерная_графика\КГ_ЛР7_Красько_ИВТ-4_2курс\КГ_ЛР7_Красько_ИВТ-4_2курс\obj\Debug\КГ_ЛР7_Красько_ИВТ_4_2курс.FormRocket.resources
