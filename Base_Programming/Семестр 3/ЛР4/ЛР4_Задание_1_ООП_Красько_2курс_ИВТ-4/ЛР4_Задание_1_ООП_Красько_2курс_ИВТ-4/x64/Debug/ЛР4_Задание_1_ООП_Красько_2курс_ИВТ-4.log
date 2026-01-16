@@ -1,0 +1,13 @@
+﻿  card.cpp
+  dealer.cpp
+  deck.cpp
+  game.cpp
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\game.cpp(304,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  hand.cpp
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\hand.cpp(39,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+  participant.cpp
+  player.cpp
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\player.cpp(166,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4.vcxproj -> C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\x64\Debug\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4.exe

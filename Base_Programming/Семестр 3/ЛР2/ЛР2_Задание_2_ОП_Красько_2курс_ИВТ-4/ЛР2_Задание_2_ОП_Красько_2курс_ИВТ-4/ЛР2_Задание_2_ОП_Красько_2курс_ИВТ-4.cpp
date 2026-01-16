@@ -88,8 +88,8 @@ public:
     // Статический метод для вывода десятичной дроби DOUBLE
     static void printAsFraction(double num) {
         // сохраняем первые 2 цифры от числа
-        int chisl = round(num * 100);
-        int znam = 100;
+        int chisl = num * 10000;
+        int znam = 10000;
 
         Fraction f(chisl, znam);
         f.reduce();
@@ -159,8 +159,8 @@ int main() {
     cout << endl;
 
     cout << "Из строки:" << endl;
-    Fraction::printAsFraction("0.78");
-    Fraction::printAsFraction("0.333");
+    Fraction::printAsFraction("0.25");
+    Fraction::printAsFraction("0.125");
 
     cout << endl;
     cout << "Всего создано дробей: " << Fraction::counter << endl;
