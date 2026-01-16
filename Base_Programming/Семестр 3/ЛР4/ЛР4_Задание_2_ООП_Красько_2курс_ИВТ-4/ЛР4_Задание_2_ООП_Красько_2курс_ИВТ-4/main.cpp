@@ -7,10 +7,10 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
     std::cout << "1. АДАПТЕР КЛАССА (1 колода):\n";
-    std::cout << "==============================\n";
+    std::cout << std::string(40, '=') << "\n";
 
     DeckClassAdapter adapter(1);
-    std::cout << "Берем 10 карт\n";
+    std::cout << "Берём 10 карт\n";
     for (int i = 0; i < 10; i++) {
         adapter.giveCard();
     }
@@ -20,7 +20,7 @@ int main() {
     std::cout << std::string(40, '=') << "\n";
 
     Deck deck2(2);
-    std::cout << "Берем 63 карты...\n";
+    std::cout << "Берём 63 карты...\n";
     for (int i = 0; i < 63; i++) {
         deck2.giveCard();
     }
