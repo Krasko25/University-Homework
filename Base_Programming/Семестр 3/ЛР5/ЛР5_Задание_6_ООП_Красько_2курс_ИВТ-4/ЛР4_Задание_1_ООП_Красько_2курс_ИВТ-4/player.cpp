@@ -8,19 +8,21 @@ Player::Player(std::string n) : name(std::move(n)), money(2500), hasSplit(false)
     handStand.push_back(false);
 }
 
-bool Player::placeBet(int amount, int handIndex) { 
-    // Если номер текущей руки больше текущего размера массива ставок, то добавляем новое место под ставку
-    if (handIndex >= static_cast<int>(bets.size())) {
-        bets.resize(handIndex + 1, 0);
+bool Player::placeBet(int amount, int handIndex) {
+    if (money < amount) return false;
+
+    // Если нужно, расширяем список
+    while (handIndex >= static_cast<int>(bets.size())) {
+        bets.push_back(0);
     }
 
-    if (money >= amount) {
-        money -= amount;
-        bets[handIndex] = amount;
+    auto iter = bets.begin();
+    std::advance(iter, handIndex);
 
-        return true;
-    }
-    return false;
+    money -= amount;
+    *iter = amount;
+
+    return true;
 }
 
 
@@ -39,8 +41,8 @@ bool Player::split() {
 
         hands.push_back(newHand);
 
-        bets.push_back(bets[currentHandIndex]);
-        money -= bets[currentHandIndex];
+        bets.push_back(getCurrentBet());
+        money -= getCurrentBet();
 
         handDone.push_back(false);
         handStand.push_back(false);
@@ -79,12 +81,11 @@ void Player::markCurrentHandDone() {
 }
 
 bool Player::getNextHandToPlay() {
-    for (int i = 0; i < static_cast<int>(hands.size()); i++) {
+    for (size_t i = 0; i < handDone.size(); i++) {
         if (!handDone[i] && !hands[i].isBust()) {
             currentHandIndex = i;
             return true;
         }
-
     }
     return false;
 }
@@ -94,12 +95,10 @@ void Player::resetToFirstHand() {
 }
 
 bool Player::allHandsDone() const {
-    for (size_t i = 0; i < hands.size(); i++) {
-        if (!handDone[i] && !hands[i].isBust()) {
-            return false;
-        }
-    }
-    return true;
+    // Используем all_of
+    return std::all_of(handDone.begin(), handDone.end(), [](bool done) {
+        return done;
+    });
 }
 
 void Player::resetRound() {
@@ -118,21 +117,27 @@ void Player::resetRound() {
 void Player::win(int amount, int handIndex) {
     
     if (handIndex < static_cast<int>(bets.size())) {
-        money += amount + bets[handIndex]; // возврат ставки + выигрыш
-        bets[handIndex] = 0;
+        auto iter = bets.begin();
+        std::advance(iter, handIndex);
+        money += amount + (*iter);
+        *iter = 0;
     }
 }
 
 void Player::lose(int handIndex) {
     if (handIndex < static_cast<int>(bets.size())) {
-        bets[handIndex] = 0;
+        auto iter = bets.begin();
+        std::advance(iter, handIndex);
+        *iter = 0;
     }
 }
 
 void Player::draw(int handIndex) {
     if (handIndex < static_cast<int>(bets.size())) {
-        money += bets[handIndex];
-        bets[handIndex] = 0;
+        auto iter = bets.begin();
+        std::advance(iter, handIndex);
+        money += *iter;
+        *iter = 0;
     }
 }
 
@@ -146,11 +151,11 @@ int Player::getMoney() const {
 
 int Player::getCurrentBet() const {
     if (currentHandIndex < static_cast<int>(bets.size())) {
-        return bets[currentHandIndex];
+        auto iter = bets.begin();
+        std::advance(iter, currentHandIndex);
+        return *iter;
     }
-    else {
-        return 0;
-    }
+    return 0;
 }
 
 bool Player::getHasSplit() const {
@@ -177,7 +182,9 @@ void Player::displayHands() const {
 
 int Player::getBetForHand(int handIndex) const {
     if (handIndex >= 0 && handIndex < static_cast<int>(bets.size())) {
-        return bets[handIndex];
+        auto iter = bets.begin();
+        std::advance(iter, handIndex);
+        return *iter;
     }
     return 0;
 }
