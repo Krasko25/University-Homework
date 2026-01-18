@@ -285,8 +285,17 @@ void Game::betResults() {
     bool dealerBust = dealer->isBust();
     bool dealerBlackjack = dealer->getCurrentHand().hasBlackjack();
 
+
     std::cout << "-------------\n";
-    printCards();
+    std::cout << "Диллер: ";
+    dealer->displayHand(true);
+    // Выводим сообщение про руку только если больше одной руки
+
+    std::cout << "\n";
+    if (player->getTotalHands() > 1) {
+        std::cout << "---Рука " << (player->getCurrentHandIndex() + 1) << "---\n";
+    }
+    player->displayHands();
     std::cout << "-------------\n";
 
     for (int i = 0; i < player->getTotalHands(); i++) {

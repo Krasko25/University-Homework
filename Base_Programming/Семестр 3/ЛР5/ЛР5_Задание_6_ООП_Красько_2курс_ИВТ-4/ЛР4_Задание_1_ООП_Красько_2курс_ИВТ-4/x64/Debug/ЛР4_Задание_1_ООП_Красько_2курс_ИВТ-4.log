@@ -1,4 +1,4 @@
 ﻿D:\Programs\Microsoft Visual Studio\2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   game.cpp
-C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР5\ЛР5_Задание_6_ООП_Красько_2курс_ИВТ-4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\game.cpp(308,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР5\ЛР5_Задание_6_ООП_Красько_2курс_ИВТ-4\ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4\game.cpp(317,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
   ЛР4_Задание_1_ООП_Красько_2курс_ИВТ-4.vcxproj -> C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР5\ЛР5_Задание_6_ООП_Красько_2курс_ИВТ-4\x64\Debug\ЛР5_Задание_6_ООП_Красько_2курс_ИВТ-4.exe
