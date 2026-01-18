@@ -29,6 +29,7 @@ std::string Game::getHint() {
     int dealerCardValue = dealer->getVisibleCardValue();
     bool canSplitHand = player->canSplit();
 
+
     // Если есть возможность сплита
     if (canSplitHand) {
 
@@ -112,13 +113,17 @@ void Game::playRound() {
     int betAmount;
 
     // выполняем пока пользователь не укажет допустимую сумму
+    auto isValidBet = [this](int bet) -> bool { // Новый код STL алгоритм с лямбдой
+        return bet > 0 && bet <= player->getMoney();
+        };
+
     do {
         std::cout << "Ваша ставка?\n";
         std::cin >> betAmount;
-        if (betAmount <= 0 || betAmount > player->getMoney()) {
+        if (!isValidBet(betAmount)) {
             std::cout << "Невозможная сумма ставки\n";
         }
-    } while (betAmount <= 0 || betAmount > player->getMoney());
+    } while (!isValidBet(betAmount));
 
     player->placeBet(betAmount);
 
@@ -157,15 +162,12 @@ void Game::playRound() {
 
 
     // Ход диллера если у игрока есть руки, в которых не более 21 очка
+    // Новый код с any_of
+    const auto& hands = player->getHands();
     bool hasPlayableHands = false;
-    for (const auto& hand : player->getHands()) {
-        if (!hand.isBust()) {
-            hasPlayableHands = true;
-            break;
-        }
-    }
 
-    if (hasPlayableHands) {
+    if (std::any_of(hands.begin(), hands.end(),
+        [](const Hand& hand) { return !hand.isBust(); })) {
         playDealerHand();
     }
     else {
@@ -291,8 +293,10 @@ void Game::betResults() {
         Hand& hand = player->getHands()[i];
         int playerTotal = hand.getTotal();
         bool playerBlackjack = hand.hasBlackjack();
+        
         if (player->getTotalHands() > 1)
             std::cout << "---Рука " << i + 1 << "---\n";
+
 
         if (hand.isBust()) {
             std::cout << "Итог: вы проиграли " << player->getCurrentBet() << "\n";
@@ -345,11 +349,15 @@ void Game::run() {
             std::string choice;
             std::cin >> choice;
 
+            // Используем вектор и алгоритм find для проверки ввода
+            std::vector<std::string> validChoices = { "1", "2" };
+            
             if (choice == "1") {
                 continue;
             }
             else if (choice == "2") {
                 gameOver = true;
+
                 std::cout << "\nСпасибо за игру! Итоговый баланс: "
                     << player->getMoney() << "\n";
             }

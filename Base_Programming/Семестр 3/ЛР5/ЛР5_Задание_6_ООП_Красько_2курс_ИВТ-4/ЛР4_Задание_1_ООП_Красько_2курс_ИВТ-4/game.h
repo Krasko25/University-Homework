@@ -6,6 +6,14 @@
 #include "dealer.h"
 #include <memory>
 
+#include <iostream>
+#include <limits>
+#include <algorithm>  // Для STL алгоритмов
+#include <numeric>    // Для accumulate
+#include <vector>     // Для vector
+#include <string>     // Для string
+#include <sstream>    // Для stringstream
+
 class Game {
 private:
     Deck deck;
