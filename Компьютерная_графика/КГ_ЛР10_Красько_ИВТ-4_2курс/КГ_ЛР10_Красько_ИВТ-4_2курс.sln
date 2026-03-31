@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "КГ_ЛР10_Красько_ИВТ-4_2курс", "КГ_ЛР10_Красько_ИВТ-4_2курс\КГ_ЛР10_Красько_ИВТ-4_2курс.csproj", "{BD814863-4D88-4BE6-9DD8-AC765AF5B3BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD814863-4D88-4BE6-9DD8-AC765AF5B3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD814863-4D88-4BE6-9DD8-AC765AF5B3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD814863-4D88-4BE6-9DD8-AC765AF5B3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD814863-4D88-4BE6-9DD8-AC765AF5B3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CA7553B-F559-4E6D-B46D-E533FF0D8B9C}
+	EndGlobalSection
+EndGlobal

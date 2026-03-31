@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(203,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(438,50): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(658,35): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(819,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\Mikhail\Documents\University-Homework\Base_Programming\Семестр 3\ЛР4\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
