@@ -1,4 +1,4 @@
-﻿namespace КГ_ЛР11_Красько_ИВТ_4_2курс
+﻿namespace КГ_ЛР12_генерация_файла_Красько_ИВТ_4_2курс
 {
     partial class Form
     {
@@ -37,7 +37,7 @@
             this.buttonGenerate.Name = "buttonGenerate";
             this.buttonGenerate.Size = new System.Drawing.Size(283, 60);
             this.buttonGenerate.TabIndex = 0;
-            this.buttonGenerate.Text = "Создать файл";
+            this.buttonGenerate.Text = "Создать файл с точками";
             this.buttonGenerate.UseVisualStyleBackColor = true;
             this.buttonGenerate.Click += new System.EventHandler(this.buttonGenerate_Click);
             // 
@@ -50,7 +50,7 @@
             this.MaximumSize = new System.Drawing.Size(600, 200);
             this.MinimumSize = new System.Drawing.Size(600, 200);
             this.Name = "Form";
-            this.Text = "ЛР11";
+            this.Text = "ЛР12. Генерация 40 точек и запись их координат в файл";
             this.ResumeLayout(false);
 
         }
